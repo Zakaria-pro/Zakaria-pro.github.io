@@ -11,7 +11,7 @@
 </head>
 <body>
   <div style="border: 10px solid #ffffff">
-   <a href="https://zakaria-pro.github.io/my-eportfolio.github.io">
+   <a href="https://zakaria-pro.github.io/my-eportfolio.github.io" target="_blank">
       <img style="border-radius: 6px" src="./assets/my-portfolio.png"/>
    </a>
 </div>
