@@ -4827,6 +4827,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 .resume {
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .contact-me {
@@ -4837,3 +4838,30 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   display: flex;
   justify-content: center;
 }
+
+.resume-frame{
+  display:block;
+}
+
+@media screen and (max-width: 1000px) {
+  .resume-frame{
+    display: none;
+    
+  }
+}
+
+.google-form{
+  height: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+  .google-form{
+    height: 770px;
+    
+  }
+}
+
+
+
+
+
