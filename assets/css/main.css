@@ -3361,7 +3361,7 @@ table.alt tbody tr td {
   background-color: #212931;
   background-image: url("../../images/overlay.png"),
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../../images/bg.jpg");
+    url("../../images/bg.jpeg");
   background-size: auto, auto, 100% auto;
   background-position: center, center, top center;
   background-repeat: repeat, no-repeat, no-repeat;
@@ -4839,29 +4839,22 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   justify-content: center;
 }
 
-.resume-frame{
-  display:block;
+.resume-frame {
+  display: block;
 }
 
 @media screen and (max-width: 1000px) {
-  .resume-frame{
+  .resume-frame {
     display: none;
-    
   }
 }
 
-.google-form{
+.google-form {
   height: 400px;
 }
 
 @media screen and (max-width: 1000px) {
-  .google-form{
+  .google-form {
     height: 770px;
-    
   }
 }
-
-
-
-
-
